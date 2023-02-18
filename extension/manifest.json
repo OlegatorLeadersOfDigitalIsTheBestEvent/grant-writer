@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Молодежный Бит",
+    "version":"1.0",  
+    "description":"This extension allows you to retrieving your cookie session ID from Linkedin",
+    "author": "PLEXeT Team",
+
+    "content_scripts": [
+        {
+            "matches": ["*://grants.myrosmol.ru/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
